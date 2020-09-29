@@ -5,7 +5,7 @@ import AccordionItem from './Accordion-Item'
 
 function Accordion ({ id, entries, snacks, listName }) {
   return (
-    <div className="col">
+    <div className="col-sm">
       <h4 className="mt-4 mb-2 text-left">{ listName }</h4>
 
       <div

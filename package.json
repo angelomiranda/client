@@ -14,7 +14,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "netlify": "curl -X POST -d {} https://api.netlify.com/build_hooks/5f73707b04dec60a956c8276"
   },
   "eslintConfig": {
     "extends": "react-app"
